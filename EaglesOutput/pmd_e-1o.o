@@ -1,0 +1,56 @@
+Warning:java.lang.RuntimeException: null field
+Warning:java.lang.RuntimeException: null field
+Spark Memory:2025MB
+Spark time:12s
+Construct transPAG...0s
+Propagate..
+set all entry context sensitivity (and balanced) ...6s
+Select Memory:1625MB
+Select time:7s
+methods:
+insensM: 2549
+fullsens: 5324
+partial: 4345
+nodes:
+insensN: 51514
+sensN: 80971
+totalN: 132485
+selective cs-pta starts!
+Warning:java.lang.RuntimeException: null field
+Warning:java.lang.RuntimeException: null field
+Analysis:                                         eagle-1object+0heap
+Time (sec):                                       9.46
+ ====== Call Graph ======
+#Method (Static):                                 63657
+#Reachable Method (CI):                           12039
+#Reachable Method (CS):                           90523
+#Call Edge(CI):                                   66044
+#Call Edge(CS):                                   1309857
+ ====== Statements ======
+#Cast (Total):                                    2892
+#May Fail Cast (Total):                           2041
+#Static Call Site(Total):                         6845
+#Virtual Call Site(Total):                        46448
+#Virtual Call Site(Polymorphic):                  2792
+ ====== Nodes ======
+#Global Pointer (lib + app):                      1508
+#Global Avg Points-To Target(CI):                 1.38
+#Global Avg Points-To Target(CS):                 1.38
+#Local Pointer (lib + app):                       73189
+#Local Avg Points-To Target(CI):                  30.11
+#Context Local Pointer (lib + app):               334258
+#Context Local Avg Points-To Target(CS):          26.23
+#Points-to relation:                              18074595
+	#Static Field pt:                                19159
+	#Alloc Field pt:                                 296230
+	#Local pt:                                       17759206
+#Alloc Node(CI):                                  10671
+#Alloc Node(CS):                                  10671
+ ====== Assignments ======
+#Simple-pag-edge:                                 1376967
+#Store-pag-edge:                                  36399
+#Load-pag-edge:                                   89453
+ ====== Classes ======
+#Class:                                           6807
+#Class(reachable):                                1806
+

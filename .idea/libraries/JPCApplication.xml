@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="JPCApplication">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/benchmarks/applications/JPC/JPCApplication.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,16 @@
+Spark Memory:4215MB
+Spark time:51s
+Construct transPAG...0s
+Propagate..
+set all entry context sensitivity (and balanced) ...38s
+Select Memory:3190MB
+Select time:39s
+methods:
+insensM: 4566
+fullsens: 8596
+partial: 9705
+nodes:
+insensN: 89147
+sensN: 178067
+totalN: 267214
+selective cs-pta starts!

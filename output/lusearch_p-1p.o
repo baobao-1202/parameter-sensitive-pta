@@ -1,0 +1,47 @@
+Spark Memory:1162MB
+Spark time:6s
+Construct transPAG...0s
+Propagate..
+set all entry context sensitivity (and balanced) ...1s
+Select Memory:953MB
+Select time:2s
+methods:
+insensM: 1654
+fullsens: 5149
+paramsen-pta starts!
+Analysis:                                         1+0heap
+Time (sec):                                       3.42
+ ====== Call Graph ======
+#Method (Static):                                 24958
+#Reachable Method (CI):                           5900
+#Reachable Method (CS):                           80149
+#Call Edge(CI):                                   22637
+#Call Edge(CS):                                   79853
+ ====== Statements ======
+#Cast (Total):                                    1125
+#May Fail Cast (Total):                           288
+#Static Call Site(Total):                         4279
+#Virtual Call Site(Total):                        20732
+#Virtual Call Site(Polymorphic):                  382
+ ====== Nodes ======
+#Global Pointer (lib + app):                      1084
+#Global Avg Points-To Target(CI):                 0.98
+#Global Avg Points-To Target(CS):                 0.98
+#Local Pointer (lib + app):                       32102
+#Local Avg Points-To Target(CI):                  4.23
+#Context Local Pointer (lib + app):               264142
+#Context Local Avg Points-To Target(CS):          4.40
+#Points-to relation:                              12745160
+	#Static Field pt:                                6128
+	#Alloc Field pt:                                 70331
+	#Local pt:                                       12668701
+#Alloc Node(CI):                                  6462
+#Alloc Node(CS):                                  6462
+ ====== Assignments ======
+#Simple-pag-edge:                                 392919
+#Store-pag-edge:                                  20722
+#Load-pag-edge:                                   64404
+ ====== Classes ======
+#Class:                                           2729
+#Class(reachable):                                1042
+

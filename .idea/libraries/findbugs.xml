@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="findbugs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/benchmarks/applications/findbugs/asm-commons-3.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/benchmarks/applications/findbugs/coreplugin.jar!/" />
+      <root url="jar://$PROJECT_DIR$/benchmarks/applications/findbugs/asm-3.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/benchmarks/applications/findbugs/bcel.jar!/" />
+      <root url="jar://$PROJECT_DIR$/benchmarks/applications/findbugs/findbugs.jar!/" />
+      <root url="jar://$PROJECT_DIR$/benchmarks/applications/findbugs/asm-tree-3.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/benchmarks/applications/findbugs/dom4j-full.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

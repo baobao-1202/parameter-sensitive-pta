@@ -1,0 +1,47 @@
+Spark Memory:1031MB
+Spark time:7s
+Construct transPAG...0s
+Propagate..
+set all entry context sensitivity (and balanced) ...1s
+Select Memory:807MB
+Select time:2s
+methods:
+insensM: 2014
+fullsens: 5825
+paramsen-pta starts!
+Analysis:                                         1+0heap
+Time (sec):                                       5.53
+ ====== Call Graph ======
+#Method (Static):                                 66991
+#Reachable Method (CI):                           6921
+#Reachable Method (CS):                           91851
+#Call Edge(CI):                                   25792
+#Call Edge(CS):                                   91466
+ ====== Statements ======
+#Cast (Total):                                    1193
+#May Fail Cast (Total):                           309
+#Static Call Site(Total):                         4809
+#Virtual Call Site(Total):                        23643
+#Virtual Call Site(Polymorphic):                  405
+ ====== Nodes ======
+#Global Pointer (lib + app):                      1389
+#Global Avg Points-To Target(CI):                 0.99
+#Global Avg Points-To Target(CS):                 0.99
+#Local Pointer (lib + app):                       36537
+#Local Avg Points-To Target(CI):                  4.93
+#Context Local Pointer (lib + app):               322511
+#Context Local Avg Points-To Target(CS):          4.97
+#Points-to relation:                              18067895
+	#Static Field pt:                                7719
+	#Alloc Field pt:                                 81912
+	#Local pt:                                       17978264
+#Alloc Node(CI):                                  7502
+#Alloc Node(CS):                                  7502
+ ====== Assignments ======
+#Simple-pag-edge:                                 463244
+#Store-pag-edge:                                  23083
+#Load-pag-edge:                                   75342
+ ====== Classes ======
+#Class:                                           7795
+#Class(reachable):                                1508
+

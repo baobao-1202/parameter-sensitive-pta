@@ -1,0 +1,52 @@
+Spark Memory:1099MB
+Spark time:10s
+Construct transPAG...0s
+Propagate..
+set all entry context sensitivity (and balanced) ...3s
+Select Memory:853MB
+Select time:3s
+methods:
+insensM: 1951
+fullsens: 3432
+partial: 2980
+nodes:
+insensN: 34567
+sensN: 49859
+totalN: 84426
+selective cs-pta starts!
+Analysis:                                         eagle-2object+1heap
+Time (sec):                                       375.92
+ ====== Call Graph ======
+#Method (Static):                                 62733
+#Reachable Method (CI):                           7730
+#Reachable Method (CS):                           466308
+#Call Edge(CI):                                   36377
+#Call Edge(CS):                                   20074893
+ ====== Statements ======
+#Cast (Total):                                    1407
+#May Fail Cast (Total):                           443
+#Static Call Site(Total):                         5119
+#Virtual Call Site(Total):                        26683
+#Virtual Call Site(Polymorphic):                  1021
+ ====== Nodes ======
+#Global Pointer (lib + app):                      1196
+#Global Avg Points-To Target(CI):                 1.06
+#Global Avg Points-To Target(CS):                 1.59
+#Local Pointer (lib + app):                       40881
+#Local Avg Points-To Target(CI):                  4.37
+#Context Local Pointer (lib + app):               1660060
+#Context Local Avg Points-To Target(CS):          20.52
+#Points-to relation:                              132005303
+	#Static Field pt:                                15304
+	#Alloc Field pt:                                 3749789
+	#Local pt:                                       128240210
+#Alloc Node(CI):                                  7832
+#Alloc Node(CS):                                  46626
+ ====== Assignments ======
+#Simple-pag-edge:                                 16041999
+#Store-pag-edge:                                  165578
+#Load-pag-edge:                                   362551
+ ====== Classes ======
+#Class:                                           6476
+#Class(reachable):                                1302
+

@@ -1,0 +1,46 @@
+Spark Memory:1871MB
+Spark time:9s
+Construct transPAG...0s
+Propagate..
+set all entry context sensitivity (and balanced) ...2s
+Select Memory:1573MB
+methods:
+insensM: 1868
+fullsens: 6151
+paramsen-pta starts!
+Analysis:                                         1+0heap
+Time (sec):                                       1.70
+ ====== Call Graph ======
+#Method (Static):                                 53090
+#Reachable Method (CI):                           6053
+#Reachable Method (CS):                           40420
+#Call Edge(CI):                                   20675
+#Call Edge(CS):                                   40123
+ ====== Statements ======
+#Cast (Total):                                    1075
+#May Fail Cast (Total):                           131
+#Static Call Site(Total):                         4123
+#Virtual Call Site(Total):                        23618
+#Virtual Call Site(Polymorphic):                  356
+ ====== Nodes ======
+#Global Pointer (lib + app):                      1125
+#Global Avg Points-To Target(CI):                 0.98
+#Global Avg Points-To Target(CS):                 0.98
+#Local Pointer (lib + app):                       33694
+#Local Avg Points-To Target(CI):                  1.78
+#Context Local Pointer (lib + app):               148194
+#Context Local Avg Points-To Target(CS):          5.12
+#Points-to relation:                              3675817
+	#Static Field pt:                                6116
+	#Alloc Field pt:                                 30407
+	#Local pt:                                       3639294
+#Alloc Node(CI):                                  6461
+#Alloc Node(CS):                                  6461
+ ====== Assignments ======
+#Simple-pag-edge:                                 220092
+#Store-pag-edge:                                  7880
+#Load-pag-edge:                                   35826
+ ====== Classes ======
+#Class:                                           5464
+#Class(reachable):                                1066
+

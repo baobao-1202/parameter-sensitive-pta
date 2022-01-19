@@ -1,0 +1,50 @@
+Warning:java.lang.RuntimeException: null field
+Warning:java.lang.RuntimeException: null field
+Spark Memory:2028MB
+Spark time:12s
+Construct transPAG...0s
+Propagate..
+set all entry context sensitivity (and balanced) ...6s
+Select Memory:1628MB
+methods:
+insensM: 2549
+fullsens: 9669
+paramsen-pta starts!
+Warning:java.lang.RuntimeException: null field
+Warning:java.lang.RuntimeException: null field
+Analysis:                                         1+0heap
+Time (sec):                                       1.81
+ ====== Call Graph ======
+#Method (Static):                                 63657
+#Reachable Method (CI):                           6411
+#Reachable Method (CS):                           40585
+#Call Edge(CI):                                   21657
+#Call Edge(CS):                                   40252
+ ====== Statements ======
+#Cast (Total):                                    1270
+#May Fail Cast (Total):                           173
+#Static Call Site(Total):                         4668
+#Virtual Call Site(Total):                        23351
+#Virtual Call Site(Polymorphic):                  350
+ ====== Nodes ======
+#Global Pointer (lib + app):                      1291
+#Global Avg Points-To Target(CI):                 0.88
+#Global Avg Points-To Target(CS):                 0.88
+#Local Pointer (lib + app):                       36278
+#Local Avg Points-To Target(CI):                  1.82
+#Context Local Pointer (lib + app):               153220
+#Context Local Avg Points-To Target(CS):          4.97
+#Points-to relation:                              3935481
+	#Static Field pt:                                6526
+	#Alloc Field pt:                                 38772
+	#Local pt:                                       3890183
+#Alloc Node(CI):                                  6943
+#Alloc Node(CS):                                  6943
+ ====== Assignments ======
+#Simple-pag-edge:                                 228612
+#Store-pag-edge:                                  8974
+#Load-pag-edge:                                   36076
+ ====== Classes ======
+#Class:                                           6807
+#Class(reachable):                                1234
+

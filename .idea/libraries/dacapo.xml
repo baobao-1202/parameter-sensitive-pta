@@ -1,0 +1,31 @@
+<component name="libraryTable">
+  <library name="dacapo">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/benchmarks/dacapo/xalan.jar!/" />
+      <root url="jar://$PROJECT_DIR$/benchmarks/dacapo/chart-deps.jar!/" />
+      <root url="jar://$PROJECT_DIR$/benchmarks/dacapo/eclipse-deps - Copy.jar!/" />
+      <root url="jar://$PROJECT_DIR$/benchmarks/dacapo/jython-deps.jar!/" />
+      <root url="jar://$PROJECT_DIR$/benchmarks/dacapo/fop.jar!/" />
+      <root url="jar://$PROJECT_DIR$/benchmarks/dacapo/antlr-deps.jar!/" />
+      <root url="jar://$PROJECT_DIR$/benchmarks/dacapo/bloat.jar!/" />
+      <root url="jar://$PROJECT_DIR$/benchmarks/dacapo/pmd.jar!/" />
+      <root url="jar://$PROJECT_DIR$/benchmarks/dacapo/hsqldb.jar!/" />
+      <root url="jar://$PROJECT_DIR$/benchmarks/dacapo/luindex-deps.jar!/" />
+      <root url="jar://$PROJECT_DIR$/benchmarks/dacapo/eclipse-deps.jar!/" />
+      <root url="jar://$PROJECT_DIR$/benchmarks/dacapo/pmd-deps.jar!/" />
+      <root url="jar://$PROJECT_DIR$/benchmarks/dacapo/antlr.jar!/" />
+      <root url="jar://$PROJECT_DIR$/benchmarks/dacapo/jython.jar!/" />
+      <root url="jar://$PROJECT_DIR$/benchmarks/dacapo/bloat-deps.jar!/" />
+      <root url="jar://$PROJECT_DIR$/benchmarks/dacapo/luindex.jar!/" />
+      <root url="jar://$PROJECT_DIR$/benchmarks/dacapo/chart.jar!/" />
+      <root url="jar://$PROJECT_DIR$/benchmarks/dacapo/fop-deps.jar!/" />
+      <root url="jar://$PROJECT_DIR$/benchmarks/dacapo/eclipse.jar!/" />
+      <root url="jar://$PROJECT_DIR$/benchmarks/dacapo/lusearch-deps.jar!/" />
+      <root url="jar://$PROJECT_DIR$/benchmarks/dacapo/xalan-deps.jar!/" />
+      <root url="jar://$PROJECT_DIR$/benchmarks/dacapo/hsqldb-deps.jar!/" />
+      <root url="jar://$PROJECT_DIR$/benchmarks/dacapo/lusearch.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

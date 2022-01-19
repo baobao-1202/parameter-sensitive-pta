@@ -1,0 +1,51 @@
+Spark Memory:2133MB
+Spark time:17s
+Construct transPAG...0s
+Propagate..
+set all entry context sensitivity (and balanced) ...7s
+Select Memory:1656MB
+methods:
+insensM: 3623
+fullsens: 5352
+partial: 5025
+nodes:
+insensN: 65364
+sensN: 84327
+totalN: 149691
+paramsen-pta starts!
+Analysis:                                         1+0heap
+Time (sec):                                       3.40
+ ====== Call Graph ======
+#Method (Static):                                 72772
+#Reachable Method (CI):                           8429
+#Reachable Method (CS):                           55512
+#Call Edge(CI):                                   28492
+#Call Edge(CS):                                   54992
+ ====== Statements ======
+#Cast (Total):                                    1689
+#May Fail Cast (Total):                           235
+#Static Call Site(Total):                         6328
+#Virtual Call Site(Total):                        32239
+#Virtual Call Site(Polymorphic):                  406
+ ====== Nodes ======
+#Global Pointer (lib + app):                      2541
+#Global Avg Points-To Target(CI):                 0.97
+#Global Avg Points-To Target(CS):                 0.97
+#Local Pointer (lib + app):                       47812
+#Local Avg Points-To Target(CI):                  1.75
+#Context Local Pointer (lib + app):               215415
+#Context Local Avg Points-To Target(CS):          3.85
+#Points-to relation:                              6577866
+	#Static Field pt:                                12072
+	#Alloc Field pt:                                 54335
+	#Local pt:                                       6511459
+#Alloc Node(CI):                                  9947
+#Alloc Node(CS):                                  9947
+ ====== Assignments ======
+#Simple-pag-edge:                                 311037
+#Store-pag-edge:                                  16233
+#Load-pag-edge:                                   45654
+ ====== Classes ======
+#Class:                                           6973
+#Class(reachable):                                1627
+

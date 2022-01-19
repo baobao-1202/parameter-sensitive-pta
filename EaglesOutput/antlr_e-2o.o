@@ -1,0 +1,52 @@
+Spark Memory:1901MB
+Spark time:9s
+Construct transPAG...0s
+Propagate..
+set all entry context sensitivity (and balanced) ...2s
+Select Memory:1603MB
+Select time:2s
+methods:
+insensM: 1868
+fullsens: 3072
+partial: 3079
+nodes:
+insensN: 38228
+sensN: 58612
+totalN: 96840
+selective cs-pta starts!
+Analysis:                                         eagle-2object+1heap
+Time (sec):                                       23.48
+ ====== Call Graph ======
+#Method (Static):                                 53090
+#Reachable Method (CI):                           7596
+#Reachable Method (CS):                           295443
+#Call Edge(CI):                                   50145
+#Call Edge(CS):                                   4074306
+ ====== Statements ======
+#Cast (Total):                                    1479
+#May Fail Cast (Total):                           484
+#Static Call Site(Total):                         4907
+#Virtual Call Site(Total):                        40098
+#Virtual Call Site(Polymorphic):                  1636
+ ====== Nodes ======
+#Global Pointer (lib + app):                      1220
+#Global Avg Points-To Target(CI):                 1.27
+#Global Avg Points-To Target(CS):                 2.19
+#Local Pointer (lib + app):                       50762
+#Local Avg Points-To Target(CI):                  6.46
+#Context Local Pointer (lib + app):               845572
+#Context Local Avg Points-To Target(CS):          8.50
+#Points-to relation:                              19350446
+	#Static Field pt:                                12131
+	#Alloc Field pt:                                 571803
+	#Local pt:                                       18766512
+#Alloc Node(CI):                                  8871
+#Alloc Node(CS):                                  37966
+ ====== Assignments ======
+#Simple-pag-edge:                                 3700265
+#Store-pag-edge:                                  95146
+#Load-pag-edge:                                   214138
+ ====== Classes ======
+#Class:                                           5464
+#Class(reachable):                                1137
+

@@ -1,0 +1,47 @@
+Spark Memory:1900MB
+Spark time:9s
+Construct transPAG...0s
+Propagate..
+set all entry context sensitivity (and balanced) ...2s
+Select Memory:1602MB
+Select time:2s
+methods:
+insensM: 1868
+fullsens: 6151
+paramsen-pta starts!
+Analysis:                                         1+0heap
+Time (sec):                                       4.73
+ ====== Call Graph ======
+#Method (Static):                                 53090
+#Reachable Method (CI):                           6489
+#Reachable Method (CS):                           89036
+#Call Edge(CI):                                   25447
+#Call Edge(CS):                                   88732
+ ====== Statements ======
+#Cast (Total):                                    1205
+#May Fail Cast (Total):                           317
+#Static Call Site(Total):                         4408
+#Virtual Call Site(Total):                        25642
+#Virtual Call Site(Polymorphic):                  472
+ ====== Nodes ======
+#Global Pointer (lib + app):                      1132
+#Global Avg Points-To Target(CI):                 0.99
+#Global Avg Points-To Target(CS):                 0.99
+#Local Pointer (lib + app):                       36679
+#Local Avg Points-To Target(CI):                  4.08
+#Context Local Pointer (lib + app):               292259
+#Context Local Avg Points-To Target(CS):          4.13
+#Points-to relation:                              14449192
+	#Static Field pt:                                6665
+	#Alloc Field pt:                                 76785
+	#Local pt:                                       14365742
+#Alloc Node(CI):                                  7102
+#Alloc Node(CS):                                  7102
+ ====== Assignments ======
+#Simple-pag-edge:                                 432631
+#Store-pag-edge:                                  23181
+#Load-pag-edge:                                   70989
+ ====== Classes ======
+#Class:                                           5464
+#Class(reachable):                                1095
+

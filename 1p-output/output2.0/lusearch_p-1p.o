@@ -1,0 +1,46 @@
+Spark Memory:1179MB
+Spark time:6s
+Construct transPAG...0s
+Propagate..
+set all entry context sensitivity (and balanced) ...1s
+Select Memory:970MB
+methods:
+insensM: 1654
+fullsens: 5149
+paramsen-pta starts!
+Analysis:                                         1+0heap
+Time (sec):                                       1.48
+ ====== Call Graph ======
+#Method (Static):                                 24958
+#Reachable Method (CI):                           5528
+#Reachable Method (CS):                           36369
+#Call Edge(CI):                                   18516
+#Call Edge(CS):                                   36075
+ ====== Statements ======
+#Cast (Total):                                    1017
+#May Fail Cast (Total):                           122
+#Static Call Site(Total):                         4028
+#Virtual Call Site(Total):                        19318
+#Virtual Call Site(Polymorphic):                  291
+ ====== Nodes ======
+#Global Pointer (lib + app):                      1078
+#Global Avg Points-To Target(CI):                 0.97
+#Global Avg Points-To Target(CS):                 0.97
+#Local Pointer (lib + app):                       29519
+#Local Avg Points-To Target(CI):                  1.92
+#Context Local Pointer (lib + app):               133901
+#Context Local Avg Points-To Target(CS):          5.48
+#Points-to relation:                              3310965
+	#Static Field pt:                                5633
+	#Alloc Field pt:                                 28389
+	#Local pt:                                       3276943
+#Alloc Node(CI):                                  5915
+#Alloc Node(CS):                                  5915
+ ====== Assignments ======
+#Simple-pag-edge:                                 200288
+#Store-pag-edge:                                  6999
+#Load-pag-edge:                                   31846
+ ====== Classes ======
+#Class:                                           2729
+#Class(reachable):                                1017
+

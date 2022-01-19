@@ -1,0 +1,46 @@
+Spark Memory:2133MB
+Spark time:18s
+Construct transPAG...0s
+Propagate..
+set all entry context sensitivity (and balanced) ...7s
+Select Memory:1657MB
+methods:
+insensM: 3623
+fullsens: 10377
+paramsen-pta starts!
+Analysis:                                         1+0heap
+Time (sec):                                       3.35
+ ====== Call Graph ======
+#Method (Static):                                 72772
+#Reachable Method (CI):                           8487
+#Reachable Method (CS):                           55722
+#Call Edge(CI):                                   28662
+#Call Edge(CS):                                   55201
+ ====== Statements ======
+#Cast (Total):                                    1696
+#May Fail Cast (Total):                           238
+#Static Call Site(Total):                         6341
+#Virtual Call Site(Total):                        32372
+#Virtual Call Site(Polymorphic):                  412
+ ====== Nodes ======
+#Global Pointer (lib + app):                      2544
+#Global Avg Points-To Target(CI):                 0.97
+#Global Avg Points-To Target(CS):                 0.97
+#Local Pointer (lib + app):                       48041
+#Local Avg Points-To Target(CI):                  1.74
+#Context Local Pointer (lib + app):               216506
+#Context Local Avg Points-To Target(CS):          3.85
+#Points-to relation:                              6681864
+	#Static Field pt:                                12097
+	#Alloc Field pt:                                 54646
+	#Local pt:                                       6615121
+#Alloc Node(CI):                                  9974
+#Alloc Node(CS):                                  9974
+ ====== Assignments ======
+#Simple-pag-edge:                                 313130
+#Store-pag-edge:                                  16246
+#Load-pag-edge:                                   45776
+ ====== Classes ======
+#Class:                                           6973
+#Class(reachable):                                1628
+

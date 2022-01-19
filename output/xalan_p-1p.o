@@ -1,0 +1,47 @@
+Spark Memory:1097MB
+Spark time:7s
+Construct transPAG...0s
+Propagate..
+set all entry context sensitivity (and balanced) ...2s
+Select Memory:850MB
+Select time:2s
+methods:
+insensM: 1951
+fullsens: 6412
+paramsen-pta starts!
+Analysis:                                         1+0heap
+Time (sec):                                       5.19
+ ====== Call Graph ======
+#Method (Static):                                 62733
+#Reachable Method (CI):                           6117
+#Reachable Method (CS):                           87696
+#Call Edge(CI):                                   23768
+#Call Edge(CS):                                   87383
+ ====== Statements ======
+#Cast (Total):                                    1174
+#May Fail Cast (Total):                           284
+#Static Call Site(Total):                         4442
+#Virtual Call Site(Total):                        21914
+#Virtual Call Site(Polymorphic):                  405
+ ====== Nodes ======
+#Global Pointer (lib + app):                      1145
+#Global Avg Points-To Target(CI):                 0.95
+#Global Avg Points-To Target(CS):                 0.95
+#Local Pointer (lib + app):                       33831
+#Local Avg Points-To Target(CI):                  4.40
+#Context Local Pointer (lib + app):               324109
+#Context Local Avg Points-To Target(CS):          3.86
+#Points-to relation:                              16652689
+	#Static Field pt:                                6460
+	#Alloc Field pt:                                 78241
+	#Local pt:                                       16567988
+#Alloc Node(CI):                                  6974
+#Alloc Node(CS):                                  6974
+ ====== Assignments ======
+#Simple-pag-edge:                                 448558
+#Store-pag-edge:                                  22295
+#Load-pag-edge:                                   74927
+ ====== Classes ======
+#Class:                                           6476
+#Class(reachable):                                1114
+

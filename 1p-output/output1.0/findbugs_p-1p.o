@@ -1,0 +1,40 @@
+Spark Memory:2127MB
+Spark time:17s
+Select Memory:1649MB
+paramsen-pta starts!
+Analysis:                                         1+0heap
+Time (sec):                                       2.43
+ ====== Call Graph ======
+#Method (Static):                                 73105
+#Reachable Method (CI):                           7491
+#Reachable Method (CS):                           46968
+#Call Edge(CI):                                   24347
+#Call Edge(CS):                                   46567
+ ====== Statements ======
+#Cast (Total):                                    1447
+#May Fail Cast (Total):                           178
+#Static Call Site(Total):                         5118
+#Virtual Call Site(Total):                        27081
+#Virtual Call Site(Polymorphic):                  422
+ ====== Nodes ======
+#Global Pointer (lib + app):                      1454
+#Global Avg Points-To Target(CI):                 0.85
+#Global Avg Points-To Target(CS):                 0.85
+#Local Pointer (lib + app):                       41299
+#Local Avg Points-To Target(CI):                  1.68
+#Context Local Pointer (lib + app):               168524
+#Context Local Avg Points-To Target(CS):          4.65
+#Points-to relation:                              5076443
+	#Static Field pt:                                7201
+	#Alloc Field pt:                                 50954
+	#Local pt:                                       5018288
+#Alloc Node(CI):                                  7653
+#Alloc Node(CS):                                  7653
+ ====== Assignments ======
+#Simple-pag-edge:                                 257217
+#Store-pag-edge:                                  9637
+#Load-pag-edge:                                   42137
+ ====== Classes ======
+#Class:                                           7856
+#Class(reachable):                                1413
+

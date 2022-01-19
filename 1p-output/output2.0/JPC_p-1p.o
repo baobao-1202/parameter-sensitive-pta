@@ -1,0 +1,46 @@
+Spark Memory:2189MB
+Spark time:15s
+Construct transPAG...0s
+Propagate..
+set all entry context sensitivity (and balanced) ...5s
+Select Memory:1746MB
+methods:
+insensM: 3468
+fullsens: 10388
+paramsen-pta starts!
+Analysis:                                         1+0heap
+Time (sec):                                       2.30
+ ====== Call Graph ======
+#Method (Static):                                 59074
+#Reachable Method (CI):                           8212
+#Reachable Method (CS):                           48832
+#Call Edge(CI):                                   25464
+#Call Edge(CS):                                   48344
+ ====== Statements ======
+#Cast (Total):                                    1697
+#May Fail Cast (Total):                           228
+#Static Call Site(Total):                         5700
+#Virtual Call Site(Total):                        28274
+#Virtual Call Site(Polymorphic):                  371
+ ====== Nodes ======
+#Global Pointer (lib + app):                      2014
+#Global Avg Points-To Target(CI):                 0.93
+#Global Avg Points-To Target(CS):                 0.93
+#Local Pointer (lib + app):                       43309
+#Local Avg Points-To Target(CI):                  1.73
+#Context Local Pointer (lib + app):               176953
+#Context Local Avg Points-To Target(CS):          4.34
+#Points-to relation:                              5645722
+	#Static Field pt:                                9374
+	#Alloc Field pt:                                 31716
+	#Local pt:                                       5604632
+#Alloc Node(CI):                                  8550
+#Alloc Node(CS):                                  8550
+ ====== Assignments ======
+#Simple-pag-edge:                                 265653
+#Store-pag-edge:                                  13137
+#Load-pag-edge:                                   39271
+ ====== Classes ======
+#Class:                                           5861
+#Class(reachable):                                1552
+

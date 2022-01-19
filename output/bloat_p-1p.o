@@ -1,0 +1,47 @@
+Spark Memory:1868MB
+Spark time:10s
+Construct transPAG...0s
+Propagate..
+set all entry context sensitivity (and balanced) ...3s
+Select Memory:1551MB
+Select time:3s
+methods:
+insensM: 2092
+fullsens: 7195
+paramsen-pta starts!
+Analysis:                                         1+0heap
+Time (sec):                                       3.88
+ ====== Call Graph ======
+#Method (Static):                                 25173
+#Reachable Method (CI):                           6861
+#Reachable Method (CS):                           101940
+#Call Edge(CI):                                   29035
+#Call Edge(CS):                                   101617
+ ====== Statements ======
+#Cast (Total):                                    1888
+#May Fail Cast (Total):                           483
+#Static Call Site(Total):                         4665
+#Virtual Call Site(Total):                        29686
+#Virtual Call Site(Polymorphic):                  404
+ ====== Nodes ======
+#Global Pointer (lib + app):                      1105
+#Global Avg Points-To Target(CI):                 0.98
+#Global Avg Points-To Target(CS):                 0.98
+#Local Pointer (lib + app):                       43071
+#Local Avg Points-To Target(CI):                  4.93
+#Context Local Pointer (lib + app):               358699
+#Context Local Avg Points-To Target(CS):          4.23
+#Points-to relation:                              18619218
+	#Static Field pt:                                6913
+	#Alloc Field pt:                                 76215
+	#Local pt:                                       18536090
+#Alloc Node(CI):                                  7963
+#Alloc Node(CS):                                  7963
+ ====== Assignments ======
+#Simple-pag-edge:                                 502849
+#Store-pag-edge:                                  25397
+#Load-pag-edge:                                   81979
+ ====== Classes ======
+#Class:                                           2552
+#Class(reachable):                                1225
+

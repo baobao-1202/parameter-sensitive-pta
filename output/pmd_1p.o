@@ -1,0 +1,38 @@
+Warning:java.lang.RuntimeException: null field
+Warning:java.lang.RuntimeException: null field
+Analysis:                                         1+0heap
+Time (sec):                                       15.14
+ ====== Call Graph ======
+#Method (Static):                                 63656
+#Reachable Method (CI):                           9124
+#Reachable Method (CS):                           121077
+#Call Edge(CI):                                   35925
+#Call Edge(CS):                                   120719
+ ====== Statements ======
+#Cast (Total):                                    2306
+#May Fail Cast (Total):                           945
+#Static Call Site(Total):                         5830
+#Virtual Call Site(Total):                        37219
+#Virtual Call Site(Polymorphic):                  678
+ ====== Nodes ======
+#Global Pointer (lib + app):                      1453
+#Global Avg Points-To Target(CI):                 0.87
+#Global Avg Points-To Target(CS):                 0.87
+#Local Pointer (lib + app):                       56680
+#Local Avg Points-To Target(CI):                  4.36
+#Context Local Pointer (lib + app):               454057
+#Context Local Avg Points-To Target(CS):          3.86
+#Points-to relation:                              31404205
+	#Static Field pt:                                8699
+	#Alloc Field pt:                                 111503
+	#Local pt:                                       31284003
+#Alloc Node(CI):                                  9259
+#Alloc Node(CS):                                  9259
+ ====== Assignments ======
+#Simple-pag-edge:                                 674875
+#Store-pag-edge:                                  40716
+#Load-pag-edge:                                   127491
+ ====== Classes ======
+#Class:                                           6807
+#Class(reachable):                                1544
+

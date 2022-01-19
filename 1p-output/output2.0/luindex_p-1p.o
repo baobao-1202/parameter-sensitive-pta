@@ -1,0 +1,46 @@
+Spark Memory:1156MB
+Spark time:6s
+Construct transPAG...0s
+Propagate..
+set all entry context sensitivity (and balanced) ...1s
+Select Memory:933MB
+methods:
+insensM: 1748
+fullsens: 5483
+paramsen-pta starts!
+Analysis:                                         1+0heap
+Time (sec):                                       2.01
+ ====== Call Graph ======
+#Method (Static):                                 24962
+#Reachable Method (CI):                           5826
+#Reachable Method (CS):                           38284
+#Call Edge(CI):                                   19427
+#Call Edge(CS):                                   37976
+ ====== Statements ======
+#Cast (Total):                                    1063
+#May Fail Cast (Total):                           127
+#Static Call Site(Total):                         4161
+#Virtual Call Site(Total):                        20815
+#Virtual Call Site(Polymorphic):                  310
+ ====== Nodes ======
+#Global Pointer (lib + app):                      1136
+#Global Avg Points-To Target(CI):                 0.98
+#Global Avg Points-To Target(CS):                 0.98
+#Local Pointer (lib + app):                       31430
+#Local Avg Points-To Target(CI):                  1.89
+#Context Local Pointer (lib + app):               139180
+#Context Local Avg Points-To Target(CS):          5.34
+#Points-to relation:                              3537969
+	#Static Field pt:                                5914
+	#Alloc Field pt:                                 27210
+	#Local pt:                                       3504845
+#Alloc Node(CI):                                  6213
+#Alloc Node(CS):                                  6213
+ ====== Assignments ======
+#Simple-pag-edge:                                 209859
+#Store-pag-edge:                                  7532
+#Load-pag-edge:                                   33614
+ ====== Classes ======
+#Class:                                           2730
+#Class(reachable):                                1065
+

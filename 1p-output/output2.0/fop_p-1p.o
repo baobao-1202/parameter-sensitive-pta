@@ -1,0 +1,46 @@
+Spark Memory:1077MB
+Spark time:7s
+Construct transPAG...0s
+Propagate..
+set all entry context sensitivity (and balanced) ...1s
+Select Memory:859MB
+methods:
+insensM: 2014
+fullsens: 5825
+paramsen-pta starts!
+Analysis:                                         1+0heap
+Time (sec):                                       2.10
+ ====== Call Graph ======
+#Method (Static):                                 66991
+#Reachable Method (CI):                           6581
+#Reachable Method (CS):                           40080
+#Call Edge(CI):                                   21096
+#Call Edge(CS):                                   39697
+ ====== Statements ======
+#Cast (Total):                                    1093
+#May Fail Cast (Total):                           129
+#Static Call Site(Total):                         4556
+#Virtual Call Site(Total):                        21949
+#Virtual Call Site(Polymorphic):                  314
+ ====== Nodes ======
+#Global Pointer (lib + app):                      1385
+#Global Avg Points-To Target(CI):                 0.98
+#Global Avg Points-To Target(CS):                 0.98
+#Local Pointer (lib + app):                       33677
+#Local Avg Points-To Target(CI):                  1.85
+#Context Local Pointer (lib + app):               149048
+#Context Local Avg Points-To Target(CS):          5.04
+#Points-to relation:                              3731388
+	#Static Field pt:                                7156
+	#Alloc Field pt:                                 34667
+	#Local pt:                                       3689565
+#Alloc Node(CI):                                  6924
+#Alloc Node(CS):                                  6924
+ ====== Assignments ======
+#Simple-pag-edge:                                 221085
+#Store-pag-edge:                                  8447
+#Load-pag-edge:                                   36466
+ ====== Classes ======
+#Class:                                           7795
+#Class(reachable):                                1497
+

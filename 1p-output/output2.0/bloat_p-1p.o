@@ -1,0 +1,46 @@
+Spark Memory:1323MB
+Spark time:9s
+Construct transPAG...0s
+Propagate..
+set all entry context sensitivity (and balanced) ...3s
+Select Memory:1006MB
+methods:
+insensM: 2092
+fullsens: 7195
+paramsen-pta starts!
+Analysis:                                         1+0heap
+Time (sec):                                       2.06
+ ====== Call Graph ======
+#Method (Static):                                 25173
+#Reachable Method (CI):                           6345
+#Reachable Method (CS):                           44607
+#Call Edge(CI):                                   23614
+#Call Edge(CS):                                   44291
+ ====== Statements ======
+#Cast (Total):                                    1744
+#May Fail Cast (Total):                           185
+#Static Call Site(Total):                         4363
+#Virtual Call Site(Total):                        27850
+#Virtual Call Site(Polymorphic):                  312
+ ====== Nodes ======
+#Global Pointer (lib + app):                      1096
+#Global Avg Points-To Target(CI):                 0.98
+#Global Avg Points-To Target(CS):                 0.98
+#Local Pointer (lib + app):                       39779
+#Local Avg Points-To Target(CI):                  1.73
+#Context Local Pointer (lib + app):               176412
+#Context Local Avg Points-To Target(CS):          4.33
+#Points-to relation:                              4101313
+	#Static Field pt:                                6477
+	#Alloc Field pt:                                 28825
+	#Local pt:                                       4066011
+#Alloc Node(CI):                                  7362
+#Alloc Node(CS):                                  7362
+ ====== Assignments ======
+#Simple-pag-edge:                                 243826
+#Store-pag-edge:                                  8831
+#Load-pag-edge:                                   39562
+ ====== Classes ======
+#Class:                                           2552
+#Class(reachable):                                1189
+

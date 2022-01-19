@@ -1,0 +1,47 @@
+Spark Memory:2142MB
+Spark time:18s
+Construct transPAG...0s
+Propagate..
+set all entry context sensitivity (and balanced) ...7s
+Select Memory:1666MB
+Select time:8s
+methods:
+insensM: 3623
+fullsens: 10377
+paramsen-pta starts!
+Analysis:                                         1+0heap
+Time (sec):                                       7.28
+ ====== Call Graph ======
+#Method (Static):                                 72772
+#Reachable Method (CI):                           9216
+#Reachable Method (CS):                           139508
+#Call Edge(CI):                                   35944
+#Call Edge(CS):                                   138984
+ ====== Statements ======
+#Cast (Total):                                    1947
+#May Fail Cast (Total):                           656
+#Static Call Site(Total):                         6772
+#Virtual Call Site(Total):                        35390
+#Virtual Call Site(Polymorphic):                  518
+ ====== Nodes ======
+#Global Pointer (lib + app):                      2556
+#Global Avg Points-To Target(CI):                 0.97
+#Global Avg Points-To Target(CS):                 0.97
+#Local Pointer (lib + app):                       54002
+#Local Avg Points-To Target(CI):                  6.81
+#Context Local Pointer (lib + app):               581462
+#Context Local Avg Points-To Target(CS):          4.44
+#Points-to relation:                              37508987
+	#Static Field pt:                                14105
+	#Alloc Field pt:                                 125142
+	#Local pt:                                       37369740
+#Alloc Node(CI):                                  11653
+#Alloc Node(CS):                                  11653
+ ====== Assignments ======
+#Simple-pag-edge:                                 765475
+#Store-pag-edge:                                  42164
+#Load-pag-edge:                                   112478
+ ====== Classes ======
+#Class:                                           6973
+#Class(reachable):                                1665
+

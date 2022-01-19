@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="lib1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/pta/lib/jre/jre1.6.0_45/lib/jce.jar!/" />
+      <root url="jar://$PROJECT_DIR$/pta/lib/jre/jre1.6.0_45/lib/rt.jar!/" />
+      <root url="jar://$PROJECT_DIR$/pta/lib/jre/jre1.6.0_45/lib/jsse.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

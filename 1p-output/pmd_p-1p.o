@@ -1,0 +1,44 @@
+Warning:java.lang.RuntimeException: null field
+Warning:java.lang.RuntimeException: null field
+Spark Memory:2028MB
+Spark time:14s
+Select Memory:1627MB
+paramsen-pta starts!
+Warning:java.lang.RuntimeException: null field
+Warning:java.lang.RuntimeException: null field
+Analysis:                                         1+0heap
+Time (sec):                                       2.14
+ ====== Call Graph ======
+#Method (Static):                                 63657
+#Reachable Method (CI):                           6431
+#Reachable Method (CS):                           40636
+#Call Edge(CI):                                   21699
+#Call Edge(CS):                                   40303
+ ====== Statements ======
+#Cast (Total):                                    1270
+#May Fail Cast (Total):                           168
+#Static Call Site(Total):                         4672
+#Virtual Call Site(Total):                        23367
+#Virtual Call Site(Polymorphic):                  361
+ ====== Nodes ======
+#Global Pointer (lib + app):                      1291
+#Global Avg Points-To Target(CI):                 0.88
+#Global Avg Points-To Target(CS):                 0.88
+#Local Pointer (lib + app):                       36402
+#Local Avg Points-To Target(CI):                  1.81
+#Context Local Pointer (lib + app):               153549
+#Context Local Avg Points-To Target(CS):          4.96
+#Points-to relation:                              3941955
+	#Static Field pt:                                6534
+	#Alloc Field pt:                                 38864
+	#Local pt:                                       3896557
+#Alloc Node(CI):                                  6950
+#Alloc Node(CS):                                  6950
+ ====== Assignments ======
+#Simple-pag-edge:                                 229024
+#Store-pag-edge:                                  9007
+#Load-pag-edge:                                   36221
+ ====== Classes ======
+#Class:                                           6807
+#Class(reachable):                                1234
+

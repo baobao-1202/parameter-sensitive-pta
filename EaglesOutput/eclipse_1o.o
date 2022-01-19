@@ -1,0 +1,36 @@
+Analysis:                                         1object+0heap
+Time (sec):                                       638.03
+ ====== Call Graph ======
+#Method (Static):                                 50317
+#Reachable Method (CI):                           22605
+#Reachable Method (CS):                           323415
+#Call Edge(CI):                                   176685
+#Call Edge(CS):                                   15512204
+ ====== Statements ======
+#Cast (Total):                                    6223
+#May Fail Cast (Total):                           4614
+#Static Call Site(Total):                         14904
+#Virtual Call Site(Total):                        98216
+#Virtual Call Site(Polymorphic):                  10259
+ ====== Nodes ======
+#Global Pointer (lib + app):                      3950
+#Global Avg Points-To Target(CI):                 2.06
+#Global Avg Points-To Target(CS):                 2.06
+#Local Pointer (lib + app):                       159668
+#Local Avg Points-To Target(CI):                  70.96
+#Context Local Pointer (lib + app):               1335353
+#Context Local Avg Points-To Target(CS):          75.23
+#Points-to relation:                              216759621
+	#Static Field pt:                                19867
+	#Alloc Field pt:                                 5246903
+	#Local pt:                                       211492851
+#Alloc Node(CI):                                  21113
+#Alloc Node(CS):                                  21113
+ ====== Assignments ======
+#Simple-pag-edge:                                 15059130
+#Store-pag-edge:                                  93821
+#Load-pag-edge:                                   321918
+ ====== Classes ======
+#Class:                                           4882
+#Class(reachable):                                2669
+

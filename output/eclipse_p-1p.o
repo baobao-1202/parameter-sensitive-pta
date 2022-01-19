@@ -1,0 +1,47 @@
+Spark Memory:4255MB
+Spark time:49s
+Construct transPAG...0s
+Propagate..
+set all entry context sensitivity (and balanced) ...32s
+Select Memory:3230MB
+Select time:33s
+methods:
+insensM: 4566
+fullsens: 18301
+paramsen-pta starts!
+Analysis:                                         1+0heap
+Time (sec):                                       6.48
+ ====== Call Graph ======
+#Method (Static):                                 50318
+#Reachable Method (CI):                           8618
+#Reachable Method (CS):                           129427
+#Call Edge(CI):                                   33736
+#Call Edge(CS):                                   128994
+ ====== Statements ======
+#Cast (Total):                                    1777
+#May Fail Cast (Total):                           564
+#Static Call Site(Total):                         6493
+#Virtual Call Site(Total):                        33177
+#Virtual Call Site(Polymorphic):                  519
+ ====== Nodes ======
+#Global Pointer (lib + app):                      2513
+#Global Avg Points-To Target(CI):                 0.93
+#Global Avg Points-To Target(CS):                 0.93
+#Local Pointer (lib + app):                       50930
+#Local Avg Points-To Target(CI):                  4.88
+#Context Local Pointer (lib + app):               452664
+#Context Local Avg Points-To Target(CS):          3.89
+#Points-to relation:                              49449926
+	#Static Field pt:                                9998
+	#Alloc Field pt:                                 135002
+	#Local pt:                                       49304926
+#Alloc Node(CI):                                  9873
+#Alloc Node(CS):                                  9873
+ ====== Assignments ======
+#Simple-pag-edge:                                 655144
+#Store-pag-edge:                                  32667
+#Load-pag-edge:                                   99932
+ ====== Classes ======
+#Class:                                           4882
+#Class(reachable):                                1476
+

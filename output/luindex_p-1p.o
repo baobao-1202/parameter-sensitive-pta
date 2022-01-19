@@ -1,0 +1,47 @@
+Spark Memory:1174MB
+Spark time:6s
+Construct transPAG...0s
+Propagate..
+set all entry context sensitivity (and balanced) ...1s
+Select Memory:951MB
+Select time:2s
+methods:
+insensM: 1748
+fullsens: 5483
+paramsen-pta starts!
+Analysis:                                         1+0heap
+Time (sec):                                       3.14
+ ====== Call Graph ======
+#Method (Static):                                 24962
+#Reachable Method (CI):                           6250
+#Reachable Method (CS):                           83460
+#Call Edge(CI):                                   23840
+#Call Edge(CS):                                   83148
+ ====== Statements ======
+#Cast (Total):                                    1185
+#May Fail Cast (Total):                           307
+#Static Call Site(Total):                         4424
+#Virtual Call Site(Total):                        22354
+#Virtual Call Site(Polymorphic):                  399
+ ====== Nodes ======
+#Global Pointer (lib + app):                      1144
+#Global Avg Points-To Target(CI):                 0.98
+#Global Avg Points-To Target(CS):                 0.98
+#Local Pointer (lib + app):                       34297
+#Local Avg Points-To Target(CI):                  4.23
+#Context Local Pointer (lib + app):               275764
+#Context Local Avg Points-To Target(CS):          4.38
+#Points-to relation:                              13632841
+	#Static Field pt:                                6380
+	#Alloc Field pt:                                 71104
+	#Local pt:                                       13555357
+#Alloc Node(CI):                                  6774
+#Alloc Node(CS):                                  6774
+ ====== Assignments ======
+#Simple-pag-edge:                                 408937
+#Store-pag-edge:                                  21627
+#Load-pag-edge:                                   67173
+ ====== Classes ======
+#Class:                                           2730
+#Class(reachable):                                1080
+
