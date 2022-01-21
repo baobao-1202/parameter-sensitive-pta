@@ -1,7 +1,6 @@
-Welcome to the EAGLE wiki!
 
 # 0 Introduction
-This repository is provided as an open-source tool proposed in our OOPSLA'19 paper titled "Precision-Preserving Yet Fast Object-Sensitive Pointer Analysis with Partial Context Sensitivity".
+This repository is provided as an open-source tool proposed in our ICECCS paper titled "Parameter Sensitive Pointer Analysis for Java".
 
 # 1 Requirements
 To run all the analyses, you need to make sure the following tools have been installed:
